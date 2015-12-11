@@ -2,7 +2,11 @@ export PS1="\[\e[35;1m\][\u@\h: \w]\$\[\e[0m\] "
 export EDITOR=/usr/bin/vi
 
 alias ls='ls -GFh'
+alias ll='ls -l'
+alias la='ls -a'
 alias dir='ls -alGFh'
+alias vi='vim'
+alias grep='grep --color=auto'
 
 export MARKPATH=$HOME/.marks
 function jp {
