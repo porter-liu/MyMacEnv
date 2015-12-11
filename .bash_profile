@@ -24,3 +24,8 @@ _completemarks() {
   return 0
 }
 complete -F _completemarks jp unmark
+
+# use colordiff to render svn diff
+svndiff() {
+	svn diff "${@}" | colordiff
+}
