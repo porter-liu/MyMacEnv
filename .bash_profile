@@ -8,6 +8,10 @@ alias dir='ls -alGFh'
 alias vi='vim'
 alias grep='grep --color=auto'
 
+alias ccat='pygmentize -g'  # pip install pygmentize
+alias more='more -R'
+alias less='less -R'
+
 export MARKPATH=$HOME/.marks
 function jp {
     cd -P "$MARKPATH/$1" 2>/dev/null || echo "No such mark: $1"
