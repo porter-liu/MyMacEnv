@@ -1,12 +1,29 @@
 #!/bin/sh
+
+convert_to_mp3() {
+	filepath=$1
+	filename="${filepath##*/}"
+	extension="${filename##*.}"
+	filename="${filename%.*}"
+
+	echo "processing $1 ..."
+	#ffmpeg -i "$1" -write_xing 0 "$filename.mp3"
+	echo "done"
+}
+
 if [ $# != 1 ]; then
-    echo "Usage: $0 filename"
-    exit 1
+	echo "Usage: $0 filename|directory"
+	exit 1
 fi
 
-filepath=$1
-filename="${filepath##*/}"
-extension="${filename##*.}"
-filename="${filename%.*}"
-
-ffmpeg -i "$1" -write_xing 0 "$filename.mp3"
+if [[ -d $1 ]]; then
+    for i in *
+	do
+		convert_to_mp3 "$i"
+	done
+elif [[ -f $1 ]]; then
+    convert_to_mp3 "$1"
+else
+    echo "'$1' is not a valid file or directory."
+    exit 1
+fi
