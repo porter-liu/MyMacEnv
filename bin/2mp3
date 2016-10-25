@@ -7,7 +7,7 @@ convert_to_mp3() {
 	filename="${filename%.*}"
 
 	echo "processing $1 ..."
-	#ffmpeg -i "$1" -write_xing 0 "$filename.mp3"
+	ffmpeg -i "$1" -write_xing 0 "$filename.mp3"
 	echo "done"
 }
 
@@ -17,13 +17,13 @@ if [ $# != 1 ]; then
 fi
 
 if [[ -d $1 ]]; then
-    for i in *
+	for i in *
 	do
 		convert_to_mp3 "$i"
 	done
 elif [[ -f $1 ]]; then
-    convert_to_mp3 "$1"
+	convert_to_mp3 "$1"
 else
-    echo "'$1' is not a valid file or directory."
-    exit 1
+	echo "'$1' is not a valid file or directory."
+	exit 1
 fi
