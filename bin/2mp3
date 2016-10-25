@@ -1,0 +1,12 @@
+#!/bin/sh
+if [ $# != 1 ]; then
+    echo "Usage: $0 filename"
+    exit 1
+fi
+
+filepath=$1
+filename="${filepath##*/}"
+extension="${filename##*.}"
+filename="${filename%.*}"
+
+ffmpeg -i "$1" -write_xing 0 "$filename.mp3"
