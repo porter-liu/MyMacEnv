@@ -60,6 +60,8 @@ http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window man
 
 ### Sublime Text 3
 https://www.sublimetext.com/3
+* Indent XML - https://github.com/alek-sys/sublimetext_indentxml, reindents XML and JSON files.
+  * shift+command+P, enter "Intend XML"
 
 ### Time Out
 http://www.dejal.com/timeout/
