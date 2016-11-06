@@ -4,14 +4,38 @@
 * Web Search
   * jira, https://zoomvideo.atlassian.net/browse/{query}
 
+### AppCleaner
+https://freemacsoft.net/appcleaner/, thoroughly uninstall unwanted apps.
+
+### Avira
+https://www.avira.com/, protect yourself from ransomware with award-winning free antivirus.
+
 ### Caffeine
 http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
+
+### ClipMenu
+http://www.clipmenu.com/, clipboard Manager for macOS.
+
+### Cornerstone
+https://www.zennaware.com/cornerstone/, subversion GUI.
+
+### Dash
+https://kapeli.com/dash, instant offline access to 150+ API documentation sets.
 
 ### DiffMerge
 https://sourcegear.com/diffmerge/
 
+### diumoo
+http://diumoo.net/, Douban FM.
+
+### Dropbox
+https://www.dropbox.com/
+
 ### DTerm
 http://decimus.net/dterm, a command line anywhere and everywhere.
+
+### Evernote
+https://evernote.com/
 
 ### f.lux
 https://justgetflux.com/, makes the color of your computer's display adapt to the time of day.
@@ -36,6 +60,7 @@ http://brew.sh/, The missing package manager for macOS.
 * lame - http://lame.sourceforge.net/
 * pandoc - http://pandoc.org/
 * s3cmd - http://s3tools.org/s3cmd
+* sloccount, SLOCCount - http://www.dwheeler.com/sloccount/
 * tree
 * wget
 * youtube-dl - https://github.com/rg3/youtube-dl
@@ -57,6 +82,9 @@ http://noiz.io/, white noise.
 
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
+
+### SquidMan
+http://squidman.net/squidman/, macOS graphical installer and manager for the Squid proxy cache.
 
 ### Sublime Text 3
 https://www.sublimetext.com/3
