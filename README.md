@@ -99,3 +99,6 @@ http://coppertino.com/vox/mac
 
 ### 欧路词典
 https://www.eudic.net/
+
+### 搜狗拼音
+http://pinyin.sogou.com/mac/
