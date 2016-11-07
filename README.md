@@ -88,6 +88,7 @@ http://squidman.net/squidman/, macOS graphical installer and manager for the Squ
 
 ### Sublime Text 3
 https://www.sublimetext.com/3
+* ConvertToUTF8 - https://github.com/seanliang/ConvertToUTF8, edit and save the files which encodings are not supported by Sublime Text currently.
 * Indent XML - https://github.com/alek-sys/sublimetext_indentxml, reindents XML and JSON files.
   * shift+command+P, enter "Intend XML"
 
