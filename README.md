@@ -1,6 +1,8 @@
 # MyMacEnv
 
 ### Alfred
+* Sougou Pinyin can't switch between Chinese & English using shift key
+  * Preferences -> File Search -> Advanced, uncheck "Quick Look: ⇧ to Quick Look selected item"
 * Web Search
   * jira, https://zoomvideo.atlassian.net/browse/{query}
 
