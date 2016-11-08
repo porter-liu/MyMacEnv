@@ -108,7 +108,7 @@ http://coppertino.com/vox/mac
 * XcodeColors - https://github.com/robbiehanson/XcodeColors
 * xcpretty - https://github.com/supermarin/xcpretty
 ```makefile
-XCPRETTY:=$(shell ! command -v /usr/local/bin/xcpretty >/dev/null 2>&1 || echo "| /usr/local/bin/xcpretty")
+XCPRETTY := $(shell ! command -v /usr/local/bin/xcpretty >/dev/null 2>&1 || echo "| /usr/local/bin/xcpretty")
 all:
 	set -o pipefail && xcodebuild -usage ${XCPRETTY}
 ```
