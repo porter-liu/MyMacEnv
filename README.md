@@ -85,6 +85,9 @@ http://noiz.io/, white noise.
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
 
+### Source Code Pro
+https://github.com/adobe-fonts/source-code-pro
+
 ### SquidMan
 http://squidman.net/squidman/, macOS graphical installer and manager for the Squid proxy cache.
 
@@ -99,6 +102,10 @@ http://www.dejal.com/timeout/
 
 ### VOX
 http://coppertino.com/vox/mac
+
+### Xcode
+* Alcatraz - http://alcatraz.io/
+* XcodeColors - https://github.com/robbiehanson/XcodeColors
 
 ### 欧路词典
 https://www.eudic.net/
