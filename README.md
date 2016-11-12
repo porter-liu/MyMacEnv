@@ -82,6 +82,10 @@ http://mplayerx.org/
 ### Noizio
 http://noiz.io/, white noise.
 
+### Quick Look
+* ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
+* QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
+
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
 
