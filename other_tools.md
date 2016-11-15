@@ -10,3 +10,7 @@ http://www.audacityteam.org/
 
 ## ocenaudio
 https://www.ocenaudio.com/
+
+## Soundflower
+* Kernal: https://github.com/mattingalls/Soundflower
+* GUI Shell: https://github.com/mLupine/SoundflowerBed
