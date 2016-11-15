@@ -82,12 +82,18 @@ http://mplayerx.org/
 ### Noizio
 http://noiz.io/, white noise.
 
+### QQ
+http://im.qq.com/macqq/
+
 ### Quick Look
 * ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
 
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
+
+### Skitch
+https://evernote.com/skitch/
 
 ### Source Code Pro
 https://github.com/adobe-fonts/source-code-pro
@@ -106,6 +112,9 @@ http://www.dejal.com/timeout/
 
 ### VOX
 http://coppertino.com/vox/mac
+
+### WeChat
+https://mac.weixin.qq.com/
 
 ### Xcode
 * Alcatraz - http://alcatraz.io/
