@@ -1,5 +1,15 @@
 # MyMacEnv
 
+## -== OS Settings ==-
+
+### Disable the drop-shadow in window screenshots
+```bash
+defaults write com.apple.screencapture disable-shadow -bool true
+killall SystemUIServer
+```
+
+## -== Softwares ==-
+
 ### Alfred
 * Sougou Pinyin can't switch between Chinese & English using shift key
   * Preferences -> File Search -> Advanced, uncheck "Quick Look: ⇧ to Quick Look selected item"
