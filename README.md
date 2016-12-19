@@ -8,6 +8,12 @@ defaults write com.apple.screencapture disable-shadow -bool true
 killall SystemUIServer
 ```
 
+### Change Screenshot Save Location
+```bash
+defaults write com.apple.screencapture location ~/Desktop/screenshots/
+killall SystemUIServer
+```
+
 ## -== Softwares ==-
 
 ### Aerial
