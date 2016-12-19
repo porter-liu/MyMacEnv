@@ -9,6 +9,7 @@ killall SystemUIServer
 ```
 
 ### Change Screenshot Save Location
+Create a new folder and name it "screenshots" on desktop.
 ```bash
 defaults write com.apple.screencapture location ~/Desktop/screenshots/
 killall SystemUIServer
