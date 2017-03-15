@@ -55,7 +55,7 @@ http://diumoo.net/, Douban FM.
 https://www.dropbox.com/
 
 ### DTerm
-http://decimus.net/dterm, a command line anywhere and everywhere.
+https://github.com/muhqu/dterm, a command line anywhere and everywhere. (http://decimus.net/dterm does not work in Sierra)
 
 ### Evernote
 https://evernote.com/
