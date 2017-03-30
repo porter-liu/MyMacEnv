@@ -141,6 +141,13 @@ https://mac.weixin.qq.com/
 * Alcatraz - http://alcatraz.io/
 * XcodeColors - https://github.com/robbiehanson/XcodeColors
 * xcpretty - https://github.com/supermarin/xcpretty
+
+To avoid "invalid byte sequence in US-ASCII" error, put following line into .bash_profile and use locale to verify:
+```bash
+LC_ALL="en_US.UTF-8"
+```
+
+A makefile sample:
 ```makefile
 XCPRETTY := $(shell ! command -v /usr/local/bin/xcpretty >/dev/null 2>&1 || echo "| /usr/local/bin/xcpretty")
 all:
