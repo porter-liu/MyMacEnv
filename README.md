@@ -128,6 +128,9 @@ https://www.sublimetext.com/3
 * Indent XML - https://github.com/alek-sys/sublimetext_indentxml, reindents XML and JSON files.
   * shift+command+P, enter "Intend XML"
 
+### System Preferences
+* Network Link Conditioner - https://developer.apple.com/download/more/?q=Additional%20Tools, http://nshipster.com/network-link-conditioner/
+
 ### Time Out
 http://www.dejal.com/timeout/
 
