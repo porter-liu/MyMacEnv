@@ -13,3 +13,5 @@ Extensions
   * https://chrome.google.com/webstore/detail/send-to-kindle-by-klipme/ipkfnchcgalnafehpglfbommidgmalan
 * Save to Pocket
   * https://chrome.google.com/webstore/detail/save-to-pocket/niloccemoadcdkdjlinkgdfekeahmflj
+* Markdown Here
+  * https://chrome.google.com/webstore/detail/markdown-here/elifhakcjgalahccnjkneoccemfahfoa
