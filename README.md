@@ -145,9 +145,10 @@ https://mac.weixin.qq.com/
 * XcodeColors - https://github.com/robbiehanson/XcodeColors
 * xcpretty - https://github.com/supermarin/xcpretty
 
-To avoid "invalid byte sequence in US-ASCII" error, put following line into .bash_profile and use locale to verify:
-```bash
-LC_ALL="en_US.UTF-8"
+To avoid "invalid byte sequence in US-ASCII" error, go "Manage Jenkins"->"Configure System". Under "Global properties", check "Environment variables" and add a variable
+```
+Name: LC_ALL
+Value: en_US.UTF-8
 ```
 
 A makefile sample:
