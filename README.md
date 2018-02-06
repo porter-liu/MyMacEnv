@@ -109,6 +109,7 @@ http://im.qq.com/macqq/
 ### Quick Look
 * ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
+* QuicklookStephen - https://github.com/whomwah/qlstephen, view plain text files without a file extension.
 
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
