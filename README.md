@@ -108,6 +108,7 @@ http://im.qq.com/macqq/
 
 ### Quick Look
 * ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
+* QLColorCode - https://github.com/anthonygelibert/QLColorCode, Quick Look plugin for source code with syntax highlighting.
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
 * QuicklookStephen - https://github.com/whomwah/qlstephen, view plain text files without a file extension.
 
