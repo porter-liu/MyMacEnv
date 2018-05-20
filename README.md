@@ -94,6 +94,9 @@ https://www.iterm2.com/
 ### Keka
 http://www.kekaosx.com/en/, a free file archiver for macOS.
 
+### Kid3
+https://kid3.sourceforge.io/, easily tag multiple MP3, Ogg/Vorbis, FLAC, MPC, MP4/AAC, MP2, Opus, Speex, TrueAudio, WavPack, WMA, WAV and AIFF files.
+
 ### LICEcap
 http://www.cockos.com/licecap/Capture, screen to .GIF.
 
