@@ -1,2 +1,3 @@
 #!/bin/sh
-lsof -i -P | grep -i "listen"
+#lsof -i -P | grep -i "listen"
+sudo lsof -PiTCP -sTCP:LISTEN
