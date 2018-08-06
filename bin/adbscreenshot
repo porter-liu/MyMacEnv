@@ -11,7 +11,8 @@ esac
 
 DATE=`date +%Y%m%d%H%M%S`
 if [ ${machine} == "Mac" ]; then
-	adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > screenshot_${DATE}.png
+	#adb shell screencap -p | perl -pe 's/\x0D\x0A/\x0A/g' > screenshot_${DATE}.png
+	adb exec-out screencap -p > screenshot_${DATE}.png
 else
 	adb shell screencap -p | sed 's/\r$//' > screenshot_${DATE}.png
 fi
