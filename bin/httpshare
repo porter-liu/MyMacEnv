@@ -1,0 +1,7 @@
+#!/bin/sh
+
+echo http://`ip`:8000
+#python -m SimpleHTTPServer 8000
+
+# https://gist.github.com/UniIsland/3346170
+python ~/bin/SimpleHTTPServerWithUpload.py
