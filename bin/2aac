@@ -1,0 +1,39 @@
+#!/bin/sh
+
+convert_to_aac() {
+    filepath="$1"
+    filename="${filepath##*/}"
+    extension="${filename##*.}"
+    filename="${filename%.*}"
+
+    echo "processing $1 ..."
+    ffmpeg -i "$i" -vn -acodec aac -b:a 256k "$filename.m4a"
+    #ffmpeg -i "$i" -vn -acodec alac "filename.m4a"
+    echo "done"
+}
+
+check_and_work_on() {
+    if [[ -d "$1" ]]; then
+        for i in $1/*
+        do
+            convert_to_aac "$i"
+        done
+    elif [[ -f "$1" ]]; then
+        convert_to_aac "$1"
+    else
+        echo "'$1' is not a valid file or directory."
+        exit 1
+    fi
+}
+
+if [ $# -eq 0 ]; then
+    filepath="$0"
+    filename="${filepath##*/}"
+    echo "Usage: $filename file_or_directory_list"
+    exit 1
+fi
+
+for i in "$@"
+do
+    check_and_work_on "$i"
+done
