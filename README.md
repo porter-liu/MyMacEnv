@@ -36,8 +36,8 @@ https://www.avira.com/, protect yourself from ransomware with award-winning free
 ### Caffeine
 http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 
-### ClipMenu
-http://www.clipmenu.com/, clipboard Manager for macOS.
+### Clipy
+https://clipy-app.com/, clipboard manager for macOS. ClipMenu (http://www.clipmenu.com/) is dead.
 
 ### Cornerstone
 https://www.zennaware.com/cornerstone/, subversion GUI.
@@ -47,9 +47,6 @@ https://kapeli.com/dash, instant offline access to 150+ API documentation sets.
 
 ### DiffMerge
 https://sourcegear.com/diffmerge/
-
-### diumoo
-http://diumoo.net/, Douban FM.
 
 ### Dropbox
 https://www.dropbox.com/
@@ -88,6 +85,9 @@ http://brew.sh/, The missing package manager for macOS.
 * wget
 * youtube-dl - https://github.com/rg3/youtube-dl
 
+### IINA
+https://iina.io/, Media player. Better than MPlayerX.
+
 ### iTerm2
 https://www.iterm2.com/
 
@@ -100,11 +100,11 @@ https://kid3.sourceforge.io/, easily tag multiple MP3, Ogg/Vorbis, FLAC, MPC, MP
 ### LICEcap
 http://www.cockos.com/licecap/Capture, screen to .GIF.
 
-### MPlayerX
-http://mplayerx.org/
-
 ### Noizio
 http://noiz.io/, white noise.
+
+### Petal
+https://github.com/ilime/Petal, Douban FM. Better than diumoo (http://diumoo.net/).
 
 ### QQ
 http://im.qq.com/macqq/
