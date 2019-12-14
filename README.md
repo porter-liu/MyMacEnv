@@ -8,6 +8,11 @@ defaults write com.apple.screencapture disable-shadow -bool true
 killall SystemUIServer
 ```
 
+### Disable Chrome Swipe to Go Back Gesture
+```bash
+defaults write com.google.Chrome AppleEnableSwipeNavigateWithScrolls -bool FALSE
+```
+
 ### Change Screenshot Save Location
 Create a new folder and name it "screenshots" on desktop.
 ```bash
