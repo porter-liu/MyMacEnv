@@ -68,6 +68,24 @@ https://justgetflux.com/, makes the color of your computer's display adapt to th
 ### FileZilla
 https://filezilla-project.org/
 
+### Fonts
+
+#### JetBrains Mono
+https://www.jetbrains.com/lp/mono/, A typeface for developers.
+```
+"font_face": "JetBrains Mono",
+"font_size": 15,
+"line_padding_bottom": 1,
+"line_padding_top": 1,
+```
+
+#### Source Code Pro
+https://github.com/adobe-fonts/source-code-pro, Monospaced font family for user interface and coding environments.
+```
+"font_face": "Source Code Pro",
+"font_size": 14,
+```
+
 ### Go2shell
 http://zipzapmac.com/go2shell, opens a terminal window to the current directory in Finder.
 
@@ -126,9 +144,6 @@ http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window man
 
 ### Skitch
 https://evernote.com/skitch/
-
-### Source Code Pro
-https://github.com/adobe-fonts/source-code-pro
 
 ### SquidMan
 http://squidman.net/squidman/, macOS graphical installer and manager for the Squid proxy cache.
