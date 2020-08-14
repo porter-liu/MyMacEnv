@@ -153,6 +153,10 @@ https://www.sublimetext.com/3
 * ConvertToUTF8 - https://github.com/seanliang/ConvertToUTF8, edit and save the files which encodings are not supported by Sublime Text currently.
 * Indent XML - https://github.com/alek-sys/sublimetext_indentxml, reindents XML and JSON files.
   * shift+command+P, enter "Intend XML"
+* Pretty JSON - reindents JSON files.
+  * cmd+shift+p - Install Package Control
+  * cmd+shift+p - Package Control: Install Package, Pretty JSON
+  * cmd+ctl+j to reindent JSON file
 
 ### System Preferences
 * Network Link Conditioner - https://developer.apple.com/download/more/?q=Additional%20Tools, http://nshipster.com/network-link-conditioner/
