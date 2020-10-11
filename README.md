@@ -170,6 +170,9 @@ http://www.dejal.com/timeout/
 ### VOX
 http://coppertino.com/vox/mac
 
+### VeraCrypt
+https://www.veracrypt.fr/code/VeraCrypt/, open-source disk encryption software.
+
 ### WeChat
 https://mac.weixin.qq.com/
 
