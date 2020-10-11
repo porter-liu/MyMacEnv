@@ -38,6 +38,9 @@ https://freemacsoft.net/appcleaner/, thoroughly uninstall unwanted apps.
 ### Avira
 https://www.avira.com/, protect yourself from ransomware with award-winning free antivirus.
 
+### Bitwarden
+https://bitwarden.com/, Open Source Password Management.
+
 ### Caffeine
 http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 
@@ -172,7 +175,6 @@ https://mac.weixin.qq.com/
 
 ### Xcode
 * Alcatraz - http://alcatraz.io/
-* XcodeColors - https://github.com/robbiehanson/XcodeColors
 * xcpretty - https://github.com/supermarin/xcpretty
 
 To avoid "invalid byte sequence in US-ASCII" error, go "Manage Jenkins"->"Configure System". Under "Global properties", check "Environment variables" and add a variable
