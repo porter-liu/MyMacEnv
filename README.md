@@ -126,6 +126,9 @@ https://kid3.sourceforge.io/, easily tag multiple MP3, Ogg/Vorbis, FLAC, MPC, MP
 ### LICEcap
 http://www.cockos.com/licecap/Capture, screen to .GIF.
 
+### MindNode
+https://mindnode.com/, Mindmapping & Brainstorm Ideas.
+
 ### Noizio
 http://noiz.io/, white noise.
 
