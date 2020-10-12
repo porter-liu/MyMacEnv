@@ -114,6 +114,9 @@ http://brew.sh/, The missing package manager for macOS.
 ### IINA
 https://iina.io/, Media player. Better than MPlayerX.
 
+### ImageOptim
+https://imageoptim.com/, Saves disk space & bandwidth by compressing images without losing quality.
+
 ### iTerm2
 https://www.iterm2.com/
 
