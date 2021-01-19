@@ -90,7 +90,7 @@ https://github.com/adobe-fonts/source-code-pro, Monospaced font family for user 
 ```
 
 ### Go2shell
-http://zipzapmac.com/go2shell, opens a terminal window to the current directory in Finder.
+http://zipzapmac.com/go2shell, opens a terminal window to the current directory in Finder. Use https://github.com/onmyway133/FinderGo instead.
 
 ### Hex Fiend
 http://ridiculousfish.com/hexfiend/
