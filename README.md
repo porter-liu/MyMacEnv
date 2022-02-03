@@ -41,6 +41,9 @@ https://www.avira.com/, protect yourself from ransomware with award-winning free
 ### Bitwarden
 https://bitwarden.com/, Open Source Password Management.
 
+### BlackHole
+https://github.com/ExistentialAudio/BlackHole, allows applications to pass audio to other applications.
+
 ### Caffeine
 http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 
@@ -134,6 +137,9 @@ http://www.cockos.com/licecap/Capture, screen to .GIF.
 ### MindNode
 https://mindnode.com/, Mindmapping & Brainstorm Ideas.
 
+### Monosnap
+https://monosnap.com/
+
 ### Noizio
 http://noiz.io/, white noise.
 
@@ -174,6 +180,9 @@ https://www.sublimetext.com/3
 
 ### Time Out
 http://www.dejal.com/timeout/
+
+### TinkerTool
+https://www.bresink.com/osx/TinkerTool.html
 
 ### VOX
 http://coppertino.com/vox/mac
