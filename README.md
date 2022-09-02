@@ -152,7 +152,7 @@ http://im.qq.com/macqq/
 ### Quick Look
 * ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
 * QLCARFiles - https://blog.timac.org/2018/1112-quicklook-plugin-to-visualize-car-files/, Quick Look for .CAR files
-* QLColorCode - https://github.com/anthonygelibert/QLColorCode, Quick Look plugin for source code with syntax highlighting. Need to do ```brew install highlight luarocks``` first.
+* SourceCodeSyntaxHighlight - https://github.com/sbarex/SourceCodeSyntaxHighlight, Quick Look plugin for source code with syntax highlighting.
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
 * QuicklookStephen - https://github.com/whomwah/qlstephen, view plain text files without a file extension.
 
