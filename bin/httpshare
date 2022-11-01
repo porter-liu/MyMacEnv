@@ -3,5 +3,5 @@
 echo http://`ip`:8000
 #python -m SimpleHTTPServer 8000
 
-# https://gist.github.com/UniIsland/3346170
+# https://gist.github.com/touilleMan/eb02ea40b93e52604938
 python ~/bin/SimpleHTTPServerWithUpload.py
