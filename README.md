@@ -156,6 +156,12 @@ http://im.qq.com/macqq/
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
 * QuicklookStephen - https://github.com/whomwah/qlstephen, view plain text files without a file extension.
 
+### Rime（鼠须管）
+https://rime.im/
+* Rime 输入法指北 - https://jiz4oh.com/2020/10/how-to-use-rime/
+* Rime输入法安装与配置 - https://www.thisfaner.com/p/rime/
+* rime_pro - https://github.com/a523/rime_pro
+
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
 
@@ -212,6 +218,3 @@ all:
 
 ### 欧路词典
 https://www.eudic.net/
-
-### 搜狗拼音
-http://pinyin.sogou.com/mac/
