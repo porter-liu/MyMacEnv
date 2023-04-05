@@ -157,14 +157,28 @@ http://im.qq.com/macqq/
 * QuicklookStephen - https://github.com/whomwah/qlstephen, view plain text files without a file extension.
 
 ### Rime（中州韵/鼠须管）
-https://rime.im/
+https://rime.im/ ，比较下来，雾凇拼音再加上一些自己的调整是最接近搜狗拼音的体验的
 * Rime 输入法指北 - https://jiz4oh.com/2020/10/how-to-use-rime/
-* Rime输入法安装与配置（无须使用 Rime_pro，而是用四叶草） - https://www.thisfaner.com/p/rime/
+* 雾凇拼音 - https://github.com/iDvel/rime-ice
+* 调整：
+  * default.yaml
+    * ```Shift_R: commit_code``` 雾凇的默认值是 noop
+    * 打开 , . 翻页
+      * ```- { when: paging, accept: comma, send: Page_Up }```
+      * ```- { when: has_menu, accept: period, send: Page_Down }```
+  * rime_ice.schema.yaml
+    * 注掉 ```url_2: "^[A-Za-z]+[.].*"```
+  * squirrel.yaml
+    * ```color_scheme: apathy```
+    * ```color_scheme_dark: apathy```
+    * ```horizontal: false``` 针对 apathy
+    * ```font_face: "Source Han Sans CN"``` 针对 apathy
+    * ```font_point: 21``` 针对 apathy
+* Rime输入法安装与配置（Rime_pro） - https://www.thisfaner.com/p/rime/
 * 再也不用为中文输入法而烦恼了（四叶草） - https://www.fkxxyz.com/d/cloverpinyin/
 * 好用好看好玩的输入法 —— 鼠须管配置使用 - https://blog.isteed.cc/post/squirrel-customization-2022/
 * RIME 西米 - for Squirrel（外观配置工具） - https://gjrobert.github.io/Rime-See-Me-squirrel/
 * Rime Squirrel 鼠须管输入法皮肤效果 - https://ssnhd.com/2022/01/11/rime-skin/
-* 雾凇拼音 - https://github.com/iDvel/rime-ice
 
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
