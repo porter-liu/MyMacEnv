@@ -161,6 +161,10 @@ https://rime.im/
 * Rime 输入法指北 - https://jiz4oh.com/2020/10/how-to-use-rime/
 * Rime输入法安装与配置（无须使用 Rime_pro，而是用四叶草） - https://www.thisfaner.com/p/rime/
 * 再也不用为中文输入法而烦恼了（四叶草） - https://www.fkxxyz.com/d/cloverpinyin/
+* 好用好看好玩的输入法 —— 鼠须管配置使用 - https://blog.isteed.cc/post/squirrel-customization-2022/
+* RIME 西米 - for Squirrel（外观配置工具） - https://gjrobert.github.io/Rime-See-Me-squirrel/
+* Rime Squirrel 鼠须管输入法皮肤效果 - https://ssnhd.com/2022/01/11/rime-skin/
+* 雾凇拼音 - https://github.com/iDvel/rime-ice
 
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
