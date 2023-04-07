@@ -174,6 +174,7 @@ https://rime.im/ ，比较下来，雾凇拼音再加上一些自己的调整是
     * ```horizontal: false``` 针对 apathy
     * ```font_face: "Source Han Sans CN"``` 针对 apathy
     * ```font_point: 21``` 针对 apathy
+* Rime Squirrel 鼠须管输入法配置详解 - https://ssnhd.com/2022/01/06/rime/
 * Rime输入法安装与配置（Rime_pro） - https://www.thisfaner.com/p/rime/
 * 再也不用为中文输入法而烦恼了（四叶草） - https://www.fkxxyz.com/d/cloverpinyin/
 * 好用好看好玩的输入法 —— 鼠须管配置使用 - https://blog.isteed.cc/post/squirrel-customization-2022/
