@@ -10,7 +10,7 @@ patch:
   style/color_scheme_dark: porter_apathy
 
   preset_color_schemes/+:
-    porter:
+    porter_apathy:
       name: Porter Apathy
       author: Poter Liu
       horizontal: false  # 水平排列
