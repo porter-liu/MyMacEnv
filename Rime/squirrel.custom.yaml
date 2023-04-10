@@ -5,6 +5,8 @@ patch:
       ascii_mode: true    # 开启默认英文
     com.googlecode.iterm2:
       ascii_mode: true
+    com.apple.dt.Xcode:
+      ascii_mode: true
 
   style/color_scheme: porter_apathy
   style/color_scheme_dark: porter_apathy
