@@ -1,2 +1,5 @@
 patch:
   recognizer/patterns/url_2: null  # 支持 google.com abc.txt 等网址或文件名，会导致句号不会让句子上屏，或使用句号翻页时需要注释掉
+
+  engine/translators/+:  # 注意结尾是 /+: 表示追加，而不是覆盖
+    - lua_translator@*my_date_translator  # 注意有一个星号
