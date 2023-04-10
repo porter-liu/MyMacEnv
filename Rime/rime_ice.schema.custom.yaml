@@ -1,2 +1,0 @@
-patch:
-  recognizer/patterns/url_2: ""  # 支持 google.com abc.txt 等网址或文件名，会导致句号不会让句子上屏，或使用句号翻页时需要注释掉
