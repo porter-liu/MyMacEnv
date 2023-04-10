@@ -160,20 +160,6 @@ http://im.qq.com/macqq/
 https://rime.im/ ，比较下来，雾凇拼音再加上一些自己的调整是最接近搜狗拼音的体验的
 * Rime 输入法指北 - https://jiz4oh.com/2020/10/how-to-use-rime/
 * 雾凇拼音 - https://github.com/iDvel/rime-ice
-* 调整：
-  * default.yaml
-    * ```Shift_R: commit_code``` 雾凇的默认值是 noop
-    * 打开 , . 翻页
-      * ```- { when: paging, accept: comma, send: Page_Up }```
-      * ```- { when: has_menu, accept: period, send: Page_Down }```
-  * rime_ice.schema.yaml
-    * 注掉 ```url_2: "^[A-Za-z]+[.].*"```
-  * squirrel.yaml
-    * ```color_scheme: apathy```
-    * ```color_scheme_dark: apathy```
-    * ```horizontal: false``` 针对 apathy
-    * ```font_face: "Source Han Sans CN"``` 针对 apathy
-    * ```font_point: 21``` 针对 apathy
 * Rime Squirrel 鼠须管输入法配置详解 - https://ssnhd.com/2022/01/06/rime/
 * Rime输入法安装与配置（Rime_pro） - https://www.thisfaner.com/p/rime/
 * 再也不用为中文输入法而烦恼了（四叶草） - https://www.fkxxyz.com/d/cloverpinyin/
