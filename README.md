@@ -108,13 +108,13 @@ http://brew.sh/, The missing package manager for macOS.
 * ffmpeg
 * graphviz - http://www.graphviz.org/, Graph Visualization Software.
 * imagemagick, ImageMagick - http://www.imagemagick.org/
+* wget
+* youtube-dl - https://github.com/rg3/youtube-dl
 * lame - http://lame.sourceforge.net/
 * pandoc - http://pandoc.org/
 * s3cmd - http://s3tools.org/s3cmd
 * sloccount, SLOCCount - http://www.dwheeler.com/sloccount/
 * tree
-* wget
-* youtube-dl - https://github.com/rg3/youtube-dl
 
 ### IINA
 https://iina.io/, Media player. Better than MPlayerX.
@@ -124,6 +124,8 @@ https://imageoptim.com/, Saves disk space & bandwidth by compressing images with
 
 ### iTerm2
 https://www.iterm2.com/
+* Hard Hacker Theme - https://github.com/hardhackerlabs/themes
+* exa - https://github.com/ogham/exa
 
 ### Keka
 http://www.kekaosx.com/en/, a free file archiver for macOS.
