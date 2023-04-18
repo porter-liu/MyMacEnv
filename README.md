@@ -22,8 +22,8 @@ killall SystemUIServer
 
 ## -== Softwares ==-
 
-### Aerial
-https://github.com/JohnCoates/Aerial, Apple TV Aerial Screensaver for Mac.
+### ~~Aerial~~（用 Raycast 替代）
+~~https://github.com/JohnCoates/Aerial, Apple TV Aerial Screensaver for Mac.~~
 
 ### Alfred
 * Sougou Pinyin can't switch between Chinese & English using shift key
@@ -157,6 +157,9 @@ http://im.qq.com/macqq/
 * SourceCodeSyntaxHighlight - https://github.com/sbarex/SourceCodeSyntaxHighlight, Quick Look plugin for source code with syntax highlighting.
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
 * QuicklookStephen - https://github.com/whomwah/qlstephen, view plain text files without a file extension.
+
+### Raycast
+https://www.raycast.com/
 
 ### Rime（中州韵/鼠须管）
 https://rime.im/ ，比较下来，雾凇拼音再加上一些自己的调整是最接近搜狗拼音的体验的
