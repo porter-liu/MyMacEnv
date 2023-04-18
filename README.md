@@ -22,10 +22,10 @@ killall SystemUIServer
 
 ## -== Softwares ==-
 
-### ~~Aerial~~（用 Raycast 替代）
-~~https://github.com/JohnCoates/Aerial, Apple TV Aerial Screensaver for Mac.~~
+### Aerial
+https://github.com/JohnCoates/Aerial, Apple TV Aerial Screensaver for Mac.
 
-### Alfred
+### ~~Alfred~~（用 Raycast 替代）
 * Sougou Pinyin can't switch between Chinese & English using shift key
   * Preferences -> File Search -> Advanced, uncheck "Quick Look: ⇧ to Quick Look selected item"
   * Preferences -> Appearance -> Options, change "Focusing" to "Compatibility Mode"
