@@ -47,6 +47,15 @@ https://github.com/ExistentialAudio/BlackHole, allows applications to pass audio
 ### Caffeine
 http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 
+### Chrome
+* AdBlock
+* Awesome Screenshot and Screen Recorder
+* Bitwarden
+* Bypass Paywalls - https://github.com/iamadamdev/bypass-paywalls-chrome
+* Grammarly
+* JSON Viewer - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+* Keepa
+
 ### Clipy
 https://clipy-app.com/, clipboard manager for macOS. ClipMenu (http://www.clipmenu.com/) is dead.
 
