@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ $# -eq 0 ]; then
+	filepath="$0"
+	filename="${filepath##*/}"
+	echo "Usage: $filename content"
+	exit 1
+fi
+
+echo "$1" | base64
