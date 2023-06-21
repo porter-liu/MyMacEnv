@@ -148,7 +148,7 @@ http://www.cockos.com/licecap/Capture, screen to .GIF.
 ### MindNode
 https://mindnode.com/, Mindmapping & Brainstorm Ideas.
 
-### Monosnap
+### ~~Monosnap~~（用 Shottr 替代）
 https://monosnap.com/
 
 ### Noizio
@@ -180,6 +180,9 @@ https://rime.im/ ，比较下来，雾凇拼音再加上一些自己的调整是
 * 好用好看好玩的输入法 —— 鼠须管配置使用 - https://blog.isteed.cc/post/squirrel-customization-2022/
 * RIME 西米 - for Squirrel（外观配置工具） - https://gjrobert.github.io/Rime-See-Me-squirrel/
 * Rime Squirrel 鼠须管输入法皮肤效果 - https://ssnhd.com/2022/01/11/rime-skin/
+
+### Shottr
+https://shottr.cc/, 功能很强的可以做 OCR 的截图软件。
 
 ### SizeUp
 http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window management.
