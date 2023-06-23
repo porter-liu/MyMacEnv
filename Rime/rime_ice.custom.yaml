@@ -3,3 +3,15 @@ patch:
 
   engine/translators/+:  # 注意结尾是 /+: 表示追加，而不是覆盖
     - lua_translator@*my_date_translator  # 注意有一个星号
+
+  # https://github.com/fkxxyz/rime-symbols
+  switches/@next:
+    name: symbol_support
+    reset: 1
+    states: [ "无符", "符" ]
+  'engine/filters/@before 0':
+    simplifier@symbol_support
+  symbol_support:
+    opencc_config: symbol.json
+    option_name: symbol_support
+    tips: all
