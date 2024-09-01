@@ -54,7 +54,8 @@ http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 * Bypass Paywalls - https://github.com/iamadamdev/bypass-paywalls-chrome
 * Grammarly
 * JSON Viewer - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
-* Keepa
+* Keepa - Amazon Price Tracker
+* Rakuten - cashback
 
 ### Clipy
 https://clipy-app.com/, clipboard manager for macOS. ClipMenu (http://www.clipmenu.com/) is dead.
