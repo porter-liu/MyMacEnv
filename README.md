@@ -51,11 +51,11 @@ http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 * AdBlock
 * Awesome Screenshot and Screen Recorder
 * Bitwarden
-* Bypass Paywalls - https://github.com/iamadamdev/bypass-paywalls-chrome
 * Grammarly
 * JSON Viewer - https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 * Keepa - Amazon Price Tracker
 * Rakuten - cashback
+* Wappalyzer - 检查一个网站都用了那些技术来开发
 
 ### Clipy
 https://clipy-app.com/, clipboard manager for macOS. ClipMenu (http://www.clipmenu.com/) is dead.
