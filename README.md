@@ -47,6 +47,9 @@ https://github.com/ExistentialAudio/BlackHole, allows applications to pass audio
 ### Caffeine
 http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 
+### Cavalry
+https://cavalry.scenegroup.co/, 2D animation.
+
 ### Chrome
 * AdBlock
 * Awesome Screenshot and Screen Recorder
@@ -60,26 +63,14 @@ http://lightheadsw.com/caffeine/, don't let your Mac fall asleep.
 ### Clipy
 https://clipy-app.com/, clipboard manager for macOS. ClipMenu (http://www.clipmenu.com/) is dead.
 
-### Cornerstone
-https://www.zennaware.com/cornerstone/, subversion GUI.
-
 ### Dash
 https://kapeli.com/dash, instant offline access to 150+ API documentation sets.
 
-### DiffMerge
-https://sourcegear.com/diffmerge/
-
-### Dropbox
-https://www.dropbox.com/
+### DaVinci Resolve
+https://www.blackmagicdesign.com/products/davinciresolve, video editing.
 
 ### DTerm
 https://github.com/muhqu/dterm, a command line anywhere and everywhere. (http://decimus.net/dterm does not work in Sierra)
-
-### Evernote
-https://evernote.com/
-
-### f.lux
-https://justgetflux.com/, makes the color of your computer's display adapt to the time of day.
 
 ### FileZilla
 https://filezilla-project.org/
@@ -101,6 +92,9 @@ https://github.com/adobe-fonts/source-code-pro, Monospaced font family for user 
 "font_face": "Source Code Pro",
 "font_size": 14,
 ```
+
+### foobar2000
+https://www.foobar2000.org/, music player.
 
 ### Go2shell
 http://zipzapmac.com/go2shell, opens a terminal window to the current directory in Finder. Use https://github.com/onmyway133/FinderGo instead.
@@ -149,17 +143,17 @@ http://www.cockos.com/licecap/Capture, screen to .GIF.
 ### MindNode
 https://mindnode.com/, Mindmapping & Brainstorm Ideas.
 
-### ~~Monosnap~~（用 Shottr 替代）
-https://monosnap.com/
-
 ### Noizio
 http://noiz.io/, white noise.
 
-### Petal
-https://github.com/ilime/Petal, Douban FM. Better than diumoo (http://diumoo.net/).
+### Notion
+https://www.notion.com/
 
-### QQ
-http://im.qq.com/macqq/
+### Obsidian
+https://obsidian.md/
+
+### p4merge
+https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge, file comparison.
 
 ### Quick Look
 * ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
@@ -191,6 +185,9 @@ http://www.irradiatedsoftware.com/sizeup/, powerful, keyboard-centric window man
 ### Skitch
 https://evernote.com/skitch/
 
+### Sourcetree
+https://www.sourcetreeapp.com/, git GUI.
+
 ### SquidMan
 http://squidman.net/squidman/, macOS graphical installer and manager for the Squid proxy cache.
 
@@ -207,14 +204,17 @@ https://www.sublimetext.com/3
 ### System Preferences
 * Network Link Conditioner - https://developer.apple.com/download/more/?q=Additional%20Tools, http://nshipster.com/network-link-conditioner/
 
+### Tailscale
+https://tailscale.com/, VPN.
+
+### TIDAL
+https://tidal.com/, Hi-Fi music streaming.
+
 ### Time Out
 http://www.dejal.com/timeout/
 
 ### TinkerTool
 https://www.bresink.com/osx/TinkerTool.html
-
-### VOX
-http://coppertino.com/vox/mac
 
 ### VeraCrypt
 https://www.veracrypt.fr/code/VeraCrypt/, open-source disk encryption software.
@@ -238,6 +238,9 @@ XCPRETTY := $(shell ! command -v /usr/local/bin/xcpretty >/dev/null 2>&1 || echo
 all:
 	set -o pipefail && xcodebuild -usage ${XCPRETTY}
 ```
+
+### Zoom
+https://www.zoom.com/
 
 ### 欧路词典
 https://www.eudic.net/
