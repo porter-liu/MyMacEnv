@@ -188,6 +188,9 @@ https://evernote.com/skitch/
 ### Sourcetree
 https://www.sourcetreeapp.com/, git GUI.
 
+### stats
+https://github.com/exelban/stats，menu bar 上的系统性能监控工具。
+
 ### SquidMan
 http://squidman.net/squidman/, macOS graphical installer and manager for the Squid proxy cache.
 
