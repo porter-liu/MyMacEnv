@@ -87,10 +87,10 @@ https://www.jetbrains.com/lp/mono/, A typeface for developers.
 ```
 
 #### JetBrainsMonoNL Nerd Font Mono
-https://www.nerdfonts.com/，JetBrains Mono 的关闭连字（NL）、图标等宽（Mono）版本。
+https://www.nerdfonts.com/, JetBrains Mono 的关闭连字（NL）、图标等宽（Mono）版本。
 
 #### Sarasa Term（更纱字体）
-https://github.com/lumiknit/iosevka-lumi，用来跟 JetBrainsMonoNL Nerd Font Mono 配合，在终端显示 CJK 字符的终端字体。在 macOS 下选择 SarasaLumi 里面的 TTF-Unhinted（未做屏幕优化）版本。
+https://github.com/lumiknit/iosevka-lumi, 用来跟 JetBrainsMonoNL Nerd Font Mono 配合，在终端显示 CJK 字符的终端字体。在 macOS 下选择 SarasaLumi 里面的 TTF-Unhinted（未做屏幕优化）版本。
 
 #### Source Code Pro
 https://github.com/adobe-fonts/source-code-pro, Monospaced font family for user interface and coding environments.
@@ -195,7 +195,7 @@ https://evernote.com/skitch/
 https://www.sourcetreeapp.com/, git GUI.
 
 ### Starship
-https://starship.rs/，强大且高性能的终端提示符自定义工具。配置文件在 ~/.config/starship.toml。
+https://starship.rs/, 强大且高性能的终端提示符自定义工具。配置文件在 ~/.config/starship.toml。
 
 ```toml
 add_newline = false
@@ -261,7 +261,7 @@ https://www.veracrypt.fr/code/VeraCrypt/, open-source disk encryption software.
 https://mac.weixin.qq.com/
 
 ### WezTerm
-https://wezterm.org/，可以通过 Lua 高度定制的高性能终端。配置文件在 ~/.wezterm.lua。
+https://wezterm.org/, 可以通过 Lua 高度定制的高性能终端。配置文件在 ~/.wezterm.lua。
 
 ```lua
 local wezterm = require("wezterm")
