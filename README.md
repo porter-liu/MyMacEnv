@@ -77,7 +77,7 @@ https://filezilla-project.org/
 
 ### Fonts
 
-#### JetBrains Mono
+#### ~~JetBrains Mono~~（用 JetBrainsMonoNL Nerd Font Mono 代替）
 https://www.jetbrains.com/lp/mono/, A typeface for developers.
 ```
 "font_face": "JetBrains Mono",
@@ -85,6 +85,12 @@ https://www.jetbrains.com/lp/mono/, A typeface for developers.
 "line_padding_bottom": 1,
 "line_padding_top": 1,
 ```
+
+#### JetBrainsMonoNL Nerd Font Mono
+https://www.nerdfonts.com/，JetBrains Mono 的关闭连字（NL）、图标等宽（Mono）版本。
+
+#### Sarasa Term（更纱字体）
+https://github.com/lumiknit/iosevka-lumi，用来跟 JetBrainsMonoNL Nerd Font Mono 配合，在终端显示 CJK 字符的终端字体。在 macOS 下选择 SarasaLumi 里面的 TTF-Unhinted（未做屏幕优化）版本。
 
 #### Source Code Pro
 https://github.com/adobe-fonts/source-code-pro, Monospaced font family for user interface and coding environments.
@@ -188,6 +194,35 @@ https://evernote.com/skitch/
 ### Sourcetree
 https://www.sourcetreeapp.com/, git GUI.
 
+### Starship
+https://starship.rs/，强大且高性能的终端提示符自定义工具。配置文件在 ~/.config/starship.toml。
+
+```toml
+add_newline = false
+
+format = "$python$directory$git_branch$git_status$character"
+
+[python]
+format = '[(\($virtualenv\) )]($style)'
+style = "bold yellow"
+
+[directory]
+style = "blue"
+truncation_length = 0
+truncate_to_repo = false
+
+[git_branch]
+symbol = " "
+style = "purple"
+
+[git_status]
+style = "red"
+
+[character]
+success_symbol = "[❯](green)"
+error_symbol = "[❯](red)"
+```
+
 ### stats
 https://github.com/exelban/stats，menu bar 上的系统性能监控工具。
 
@@ -224,6 +259,61 @@ https://www.veracrypt.fr/code/VeraCrypt/, open-source disk encryption software.
 
 ### WeChat
 https://mac.weixin.qq.com/
+
+### WezTerm
+https://wezterm.org/，可以通过 Lua 高度定制的高性能终端。配置文件在 ~/.wezterm.lua。
+
+```lua
+local wezterm = require("wezterm")
+
+return {
+  font = wezterm.font_with_fallback({
+    "JetBrainsMonoNL Nerd Font Mono",
+    "Sarasa Term Lumi X",
+    "Apple Color Emoji",
+  }),
+
+  font_rules = {
+    {
+      intensity = "Bold",
+      font = wezterm.font_with_fallback({
+        { family = "JetBrainsMonoNL Nerd Font Mono", weight = "Bold" },
+        { family = "Sarasa Term Lumi X", weight = "Bold" },
+        "Apple Color Emoji",
+      }),
+    },
+  },
+
+  font_size = 21,
+  line_height = 1.05,
+
+  cell_width = 1.0,
+
+  enable_tab_bar = true,
+  use_fancy_tab_bar = false,
+
+  window_padding = {
+    left = 8,
+    right = 8,
+    top = 6,
+    bottom = 6,
+  },
+
+  color_scheme = "Catppuccin Mocha",
+
+  enable_wayland = false,
+
+  max_fps = 120,
+
+  animation_fps = 120,
+
+  front_end = "WebGpu",
+
+  cursor_blink_rate = 500,
+
+  default_cursor_style = "BlinkingBar",
+}
+```
 
 ### Xcode
 * Alcatraz - http://alcatraz.io/
