@@ -38,6 +38,14 @@ https://freemacsoft.net/appcleaner/, thoroughly uninstall unwanted apps.
 ### Avira
 https://www.avira.com/, protect yourself from ransomware with award-winning free antivirus.
 
+### bat
+https://github.com/sharkdp/bat, A cat(1) clone with wings.
+```bash
+alias cat="bat"
+alias c="bat"
+alias batp="bat --plain"
+```
+
 ### Bitwarden
 https://bitwarden.com/, Open Source Password Management.
 
@@ -71,6 +79,14 @@ https://www.blackmagicdesign.com/products/davinciresolve, video editing.
 
 ### DTerm
 https://github.com/muhqu/dterm, a command line anywhere and everywhere. (http://decimus.net/dterm does not work in Sierra)
+
+### eza
+https://github.com/eza-community/eza, a modern alternative to ls.
+```bash
+alias ls="eza --icons"
+alias ll="eza -lh --icons --git"
+alias la="eza -lah --icons --git"
+```
 
 ### FileZilla
 https://filezilla-project.org/
@@ -148,6 +164,13 @@ http://www.cockos.com/licecap/Capture, screen to .GIF.
 
 ### MindNode
 https://mindnode.com/, Mindmapping & Brainstorm Ideas.
+
+### Neovim
+https://neovim.io/, hyperextensible Vim-based text editor.
+```bash
+alias vi="nvim"
+```
+之后可以再安装 LazyVim(https://www.lazyvim.org/) 。
 
 ### Noizio
 http://noiz.io/, white noise.
