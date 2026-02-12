@@ -164,6 +164,18 @@ https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge, file 
 ### Raycast
 https://www.raycast.com/
 
+~/.config/raycast/scripts/copy_pwd_to_the_clipboard
+```bash
+#!/bin/bash
+
+# @raycast.schemaVersion 1
+# @raycast.title pwd
+# @raycast.mode silent
+
+DIR=$(osascript -e 'tell application "Finder" to POSIX path of (insertion location as alias)')
+printf %s "$DIR" | pbcopy
+```
+
 ### Rime（中州韵/鼠须管）
 https://rime.im/ ，比较下来，雾凇拼音再加上一些自己的调整是最接近搜狗拼音的体验的
 * Rime 输入法指北 - https://jiz4oh.com/2020/10/how-to-use-rime/
