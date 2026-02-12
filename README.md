@@ -25,13 +25,6 @@ killall SystemUIServer
 ### Aerial
 https://github.com/JohnCoates/Aerial, Apple TV Aerial Screensaver for Mac.
 
-### ~~Alfred~~（用 Raycast 替代）
-* Sougou Pinyin can't switch between Chinese & English using shift key
-  * Preferences -> File Search -> Advanced, uncheck "Quick Look: ⇧ to Quick Look selected item"
-  * Preferences -> Appearance -> Options, change "Focusing" to "Compatibility Mode"
-* Web Search
-  * jira, https://zoomvideo.atlassian.net/browse/{query}
-
 ### AppCleaner
 https://freemacsoft.net/appcleaner/, thoroughly uninstall unwanted apps.
 
@@ -71,9 +64,6 @@ https://cavalry.scenegroup.co/, 2D animation.
 ### Clipy
 https://clipy-app.com/, clipboard manager for macOS. ClipMenu (http://www.clipmenu.com/) is dead.
 
-### Dash
-https://kapeli.com/dash, instant offline access to 150+ API documentation sets.
-
 ### DaVinci Resolve
 https://www.blackmagicdesign.com/products/davinciresolve, video editing.
 
@@ -93,35 +83,17 @@ https://filezilla-project.org/
 
 ### Fonts
 
-#### ~~JetBrains Mono~~（用 JetBrainsMonoNL Nerd Font Mono 代替）
-https://www.jetbrains.com/lp/mono/, A typeface for developers.
-```
-"font_face": "JetBrains Mono",
-"font_size": 15,
-"line_padding_bottom": 1,
-"line_padding_top": 1,
-```
-
 #### JetBrainsMonoNL Nerd Font Mono
 https://www.nerdfonts.com/, JetBrains Mono 的关闭连字（NL）、图标等宽（Mono）版本。
 
 #### Sarasa Term（更纱字体）
 https://github.com/lumiknit/iosevka-lumi, 用来跟 JetBrainsMonoNL Nerd Font Mono 配合，在终端显示 CJK 字符的终端字体。在 macOS 下选择 SarasaLumi 里面的 TTF-Unhinted（未做屏幕优化）版本。
 
-#### Source Code Pro
-https://github.com/adobe-fonts/source-code-pro, Monospaced font family for user interface and coding environments.
-```
-"font_face": "Source Code Pro",
-"font_size": 14,
-```
+#### LXGW WenKai（霞鹜文楷）
+https://github.com/lxgw/LxgwWenKai, 兼具仿宋和楷体风格的漂亮简体中文字体。
 
 ### foobar2000
 https://www.foobar2000.org/, music player.
-
-### Go2shell
-http://zipzapmac.com/go2shell, opens a terminal window to the current directory in Finder. Use https://github.com/onmyway133/FinderGo instead.
-
-Use https://github.com/Breathleas/Go2Shell.
 
 ### Hex Fiend
 http://ridiculousfish.com/hexfiend/
@@ -147,11 +119,6 @@ https://iina.io/, Media player. Better than MPlayerX.
 
 ### ImageOptim
 https://imageoptim.com/, Saves disk space & bandwidth by compressing images without losing quality.
-
-### iTerm2
-https://www.iterm2.com/
-* Hard Hacker Theme - https://github.com/hardhackerlabs/themes
-* exa - https://github.com/ogham/exa
 
 ### Keka
 http://www.kekaosx.com/en/, a free file archiver for macOS.
@@ -180,6 +147,9 @@ https://www.notion.com/
 
 ### Obsidian
 https://obsidian.md/
+
+### OpenInWezTerm
+https://github.com/porter-liu/OpenInWezTerm
 
 ### p4merge
 https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge, file comparison.
@@ -309,6 +279,7 @@ return {
 
   font_size = 21,
   line_height = 1.05,
+  freetype_load_target = "Light",
 
   cell_width = 1.0,
 
