@@ -28,9 +28,6 @@ https://github.com/JohnCoates/Aerial, Apple TV Aerial Screensaver for Mac.
 ### AppCleaner
 https://freemacsoft.net/appcleaner/, thoroughly uninstall unwanted apps.
 
-### Avira
-https://www.avira.com/, protect yourself from ransomware with award-winning free antivirus.
-
 ### bat
 https://github.com/sharkdp/bat, A cat(1) clone with wings.
 ```bash
@@ -66,9 +63,6 @@ https://clipy-app.com/, clipboard manager for macOS. ClipMenu (http://www.clipme
 
 ### DaVinci Resolve
 https://www.blackmagicdesign.com/products/davinciresolve, video editing.
-
-### DTerm
-https://github.com/muhqu/dterm, a command line anywhere and everywhere. (http://decimus.net/dterm does not work in Sierra)
 
 ### eza
 https://github.com/eza-community/eza, a modern alternative to ls.
