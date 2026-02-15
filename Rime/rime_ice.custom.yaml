@@ -4,6 +4,9 @@ patch:
   engine/translators/+:  # 注意结尾是 /+: 表示追加，而不是覆盖
     - lua_translator@*my_date_translator  # 注意有一个星号
 
+  menu:
+    page_size: 7
+
   # https://github.com/fkxxyz/rime-symbols
   switches/@next:
     name: symbol_support
