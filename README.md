@@ -262,59 +262,6 @@ https://mac.weixin.qq.com/
 ### WezTerm
 https://wezterm.org/, 可以通过 Lua 高度定制的高性能终端。配置文件在 ~/.wezterm.lua。
 
-```lua
-local wezterm = require("wezterm")
-
-return {
-  font = wezterm.font_with_fallback({
-    "JetBrainsMonoNL Nerd Font Mono",
-    "Sarasa Term Lumi X",
-    "Apple Color Emoji",
-  }),
-
-  font_rules = {
-    {
-      intensity = "Bold",
-      font = wezterm.font_with_fallback({
-        { family = "JetBrainsMonoNL Nerd Font Mono", weight = "Bold" },
-        { family = "Sarasa Term Lumi X", weight = "Bold" },
-        "Apple Color Emoji",
-      }),
-    },
-  },
-
-  font_size = 21,
-  line_height = 1.05,
-  freetype_load_target = "Light",
-
-  cell_width = 1.0,
-
-  enable_tab_bar = true,
-  use_fancy_tab_bar = false,
-
-  window_padding = {
-    left = 8,
-    right = 8,
-    top = 6,
-    bottom = 6,
-  },
-
-  color_scheme = "Catppuccin Mocha",
-
-  enable_wayland = false,
-
-  max_fps = 120,
-
-  animation_fps = 120,
-
-  front_end = "WebGpu",
-
-  cursor_blink_rate = 500,
-
-  default_cursor_style = "BlinkingBar",
-}
-```
-
 ### Xcode
 * Alcatraz - http://alcatraz.io/
 * xcpretty - https://github.com/supermarin/xcpretty
