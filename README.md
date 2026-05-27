@@ -126,6 +126,9 @@ http://www.cockos.com/licecap/Capture, screen to .GIF.
 ### MindNode
 https://mindnode.com/, Mindmapping & Brainstorm Ideas.
 
+### Mole
+https://github.com/tw93/mole, Clean, uninstall, analyze, optimize, and monitor your Mac from the terminal.
+
 ### Neovim
 https://neovim.io/, hyperextensible Vim-based text editor.
 ```bash
