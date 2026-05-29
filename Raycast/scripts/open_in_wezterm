@@ -1,0 +1,58 @@
+#!/bin/bash
+# @raycast.schemaVersion 1
+# @raycast.title Open in WezTerm
+# @raycast.mode silent
+
+set -e
+
+WEZ="$(command -v wezterm 2>/dev/null || echo "/Applications/WezTerm.app/Contents/MacOS/wezterm")"
+
+# Open a new tab in WezTerm at the given directory.
+# If WezTerm is not running, start it fresh; otherwise spawn a new tab.
+open_in_wez() {
+  local dir="$1"
+  if pgrep -x wezterm-gui > /dev/null; then
+    "$WEZ" cli spawn --cwd "$dir"
+    open -a WezTerm
+  else
+    "$WEZ" start --cwd "$dir" &
+    # After starting, wait for the mux server to be ready so subsequent
+    # calls (in the drag/drop loop) can use "cli spawn".
+    for i in {1..30}; do
+      "$WEZ" cli list-clients 2>/dev/null && break
+      sleep 0.2
+    done
+  fi
+}
+
+# 1) Toolbar click: query Finder for selection or front window target.
+dir="$(osascript -l AppleScript \
+  -e 'tell application "Finder"' \
+  -e '  try' \
+  -e '    if (count of (selection)) > 0 then' \
+  -e '      set itemPath to POSIX path of (item 1 of (selection) as alias)' \
+  -e '      try' \
+  -e '        set theItem to item 1 of (selection)' \
+  -e '        if (class of theItem) is not folder then' \
+  -e '          set itemPath to POSIX path of ((container of theItem) as alias)' \
+  -e '        end if' \
+  -e '      end try' \
+  -e '      return itemPath' \
+  -e '    end if' \
+  -e '  end try' \
+  -e '  try' \
+  -e '    if (count of windows) > 0 then' \
+  -e '      return POSIX path of (target of front window as alias)' \
+  -e '    end if' \
+  -e '  end try' \
+  -e '  try' \
+  -e '    return POSIX path of (path to desktop folder)' \
+  -e '  end try' \
+  -e 'end tell')"
+
+# 2) Fallback
+if [ -z "$dir" ]; then
+  dir="$HOME"
+fi
+
+open_in_wez "$dir"
