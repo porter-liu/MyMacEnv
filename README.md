@@ -142,6 +142,14 @@ http://noiz.io/, white noise.
 ### Notion
 https://www.notion.com/
 
+### nvm
+https://github.com/nvm-sh/nvm, 安装和管理多个不同版本的 Node.js，不要使用 Homebrew 或者官方安装包安装 Node.js。
+```bash
+nvm install 22.19.0  # 安装特定版本
+nvm use 18.16.0  # 把当前终端进程使用的 Node.js 版本切到某个版本
+nvm alias default 20  # 把全局 Node.js 切换到某个版本，新开终端也有效
+```
+
 ### Obsidian
 https://obsidian.md/
 
