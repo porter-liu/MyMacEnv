@@ -267,6 +267,9 @@ https://www.bresink.com/osx/TinkerTool.html
 ### VeraCrypt
 https://www.veracrypt.fr/code/VeraCrypt/, open-source disk encryption software.
 
+### volumeHUD
+https://github.com/dannystewart/volumeHUD, 在 macOS 26 及以上版本获得之前版本里调音量的 HUD 指示。
+
 ### WeChat
 https://mac.weixin.qq.com/
 
