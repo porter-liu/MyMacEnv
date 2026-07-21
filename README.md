@@ -67,9 +67,9 @@ https://www.blackmagicdesign.com/products/davinciresolve, video editing.
 ### eza
 https://github.com/eza-community/eza, a modern alternative to ls.
 ```bash
-alias ls="eza --icons"
-alias ll="eza -lh --icons --git"
-alias la="eza -lah --icons --git"
+alias ls='eza --icons=auto'
+alias ll='eza --icons=auto --git -lh'
+alias la='eza --icons=auto --git -lah'
 ```
 
 ### FileZilla
