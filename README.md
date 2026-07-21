@@ -123,6 +123,9 @@ https://kid3.sourceforge.io/, easily tag multiple MP3, Ogg/Vorbis, FLAC, MPC, MP
 ### LICEcap
 http://www.cockos.com/licecap/Capture, screen to .GIF.
 
+### Menu World Time
+https://apps.apple.com/us/app/menu-world-time/id1446377255?mt=12, Get times for cities around the world straight from the menu bar. 可以用 Reykjavík 来代替 UTC。
+
 ### MindNode
 https://mindnode.com/, Mindmapping & Brainstorm Ideas.
 
@@ -239,8 +242,8 @@ https://github.com/exelban/stats，menu bar 上的系统性能监控工具。
 ### SquidMan
 http://squidman.net/squidman/, macOS graphical installer and manager for the Squid proxy cache.
 
-### Sublime Text 3
-https://www.sublimetext.com/3
+### Sublime Text 4
+https://www.sublimetext.com/
 * ConvertToUTF8 - https://github.com/seanliang/ConvertToUTF8, edit and save the files which encodings are not supported by Sublime Text currently.
 * Indent XML - https://github.com/alek-sys/sublimetext_indentxml, reindents XML and JSON files.
   * shift+command+P, enter "Intend XML"
@@ -259,7 +262,7 @@ https://tailscale.com/, VPN.
 https://tidal.com/, Hi-Fi music streaming.
 
 ### Time Out
-http://www.dejal.com/timeout/
+http://www.dejal.com/timeout/, install from the App Store.
 
 ### TinkerTool
 https://www.bresink.com/osx/TinkerTool.html
