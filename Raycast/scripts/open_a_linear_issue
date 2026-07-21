@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Required parameters:
+# @raycast.schemaVersion 1
+# @raycast.title Open Linear Issue
+# @raycast.mode silent
+
+# Optional parameters:
+# @raycast.argument1 { "type": "text", "placeholder": "Issue key, e.g. ABC-123 or ABC123" }
+
+input="$1"
+
+# 去掉空格
+input="$(echo "$input" | xargs)"
+
+# 匹配：字母 + 可选- + 数字
+if [[ "$input" =~ ^([A-Za-z]+)-?([0-9]+)$ ]]; then
+    prefix=$(echo "${BASH_REMATCH[1]}" | tr '[:lower:]' '[:upper:]')   # 转大写
+    number="${BASH_REMATCH[2]}"
+    key="${prefix}-${number}"
+else
+    key="${input^^}"    # 其它情况至少转大写
+fi
+
+open "https://linear.app/visla/issue/$key"

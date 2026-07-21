@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# @raycast.schemaVersion 1
+# @raycast.title pwd
+# @raycast.mode silent
+
+DIR=$(osascript -e 'tell application "Finder" to POSIX path of (insertion location as alias)')
+printf %s "$DIR" | pbcopy
