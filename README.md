@@ -236,6 +236,8 @@ success_symbol = "[❯](green)"
 error_symbol = "[❯](red)"
 ```
 
+需要在 .zshrc 里添加 `eval "$(starship init zsh)"`。
+
 ### stats
 https://github.com/exelban/stats，menu bar 上的系统性能监控工具。
 
