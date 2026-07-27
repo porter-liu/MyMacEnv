@@ -267,6 +267,18 @@ http://www.dejal.com/timeout/, install from the App Store.
 ### TinkerTool
 https://www.bresink.com/osx/TinkerTool.html
 
+### tmux
+
+#### Catppuccin for Tmux
+https://github.com/catppuccin/tmux, Soothing pastel theme for Tmux.
+
+Install:
+```bash
+mkdir -p ~/.config/tmux/plugins/catppuccin
+git clone -b v2.3.0 https://github.com/catppuccin/tmux.git ~/.config/tmux/plugins/catppuccin/tmux
+# 之后需要在 .tmux.conf 里添加 run ~/.config/tmux/plugins/catppuccin/tmux/catppuccin.tmux
+```
+
 ### VeraCrypt
 https://www.veracrypt.fr/code/VeraCrypt/, open-source disk encryption software.
 
