@@ -122,8 +122,8 @@ return {
 	use_fancy_tab_bar = false,
 	hide_tab_bar_if_only_one_tab = false, -- 只有一个 tab 也显示，更“应用化”
 	switch_to_last_active_tab_when_closing_tab = true,
-  tab_max_width = 26,         -- 更紧凑
-  colors = {
+	tab_max_width = 26,         -- 更紧凑
+	colors = {
     background = "#181825", -- mantle
   },
 
@@ -147,4 +147,8 @@ return {
 	cursor_blink_rate = 500,
 
 	default_cursor_style = "BlinkingBar",
+
+	-- 让左 opt 键成为 alt 键，右 opt 键维持不变，这样在需要按类似 alt+c 这种组合键的时候不用按 esc, c
+	send_composed_key_when_left_alt_is_pressed = false,
+	send_composed_key_when_right_alt_is_pressed = true,
 }
