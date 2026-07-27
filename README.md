@@ -89,6 +89,22 @@ https://github.com/lxgw/LxgwWenKai, 兼具仿宋和楷体风格的漂亮简体�
 ### foobar2000
 https://www.foobar2000.org/, music player.
 
+### fzf
+https://github.com/junegunn/fzf, A command-line fuzzy finder.
+
+用 Homebrew 安装好之后，还需要在 .zshrc 里添加如下内容：
+```bash
+# Skip some folders while scanning.
+export FZF_ALT_C_OPTS="--walker-skip .git,node_modules,target,__pycache__,.venv,venv,.cache,Library"
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+```
+
+常用组合键：
+- ctrl + t: 搜索文件并插入当前命令
+- alt + c: 搜索目录并进入
+- ctrl + r: 模糊搜索命令历史
+
 ### Hex Fiend
 http://ridiculousfish.com/hexfiend/
 
@@ -312,6 +328,14 @@ all:
 
 ### Zoom
 https://www.zoom.com/
+
+### zoxide
+https://github.com/ajeetdsouza/zoxide, A smarter cd command.
+
+用 Homebrew 安装之后需要在 .zshrc 里添加以下内容：
+```bash
+eval "$(zoxide init zsh)"
+```
 
 ### 欧路词典
 https://www.eudic.net/
