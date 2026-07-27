@@ -31,9 +31,10 @@ https://freemacsoft.net/appcleaner/, thoroughly uninstall unwanted apps.
 ### bat
 https://github.com/sharkdp/bat, A cat(1) clone with wings.
 ```bash
-alias cat="bat"
-alias c="bat"
-alias batp="bat --plain"
+alias cat="bat --plain --paging=never"
+alias c="bat --paging=never"
+# Enable mouse scrolling when using bat in tmux that enables mouse support
+export BAT_PAGER='less -R -K --mouse'
 ```
 
 ### Bitwarden
