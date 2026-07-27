@@ -20,6 +20,17 @@ defaults write com.apple.screencapture location ~/Desktop/screenshots/
 killall SystemUIServer
 ```
 
+### Name
+macOS 实际上有三个相关名称，最好一次统一设置：
+```bash
+# Finder 和系统界面显示的名称，可以有空格。
+sudo scutil --set ComputerName "Mac mini"
+# 局域网 Bonjour/mDNS 名称，决定 macmini.local。
+sudo scutil --set LocalHostName "macmini"
+# 终端、SSH 等场景使用的主机名。
+sudo scutil --set HostName "macmini"
+```
+
 ## -== Softwares ==-
 
 ### Aerial
