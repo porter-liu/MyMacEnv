@@ -281,6 +281,12 @@ https://www.sublimetext.com/
   * cmd+shift+p - Install Package Control
   * cmd+shift+p - Package Control: Install Package, Pretty JSON
   * cmd+ctl+j to reindent JSON file
+ 
+···bash
+# 在 CLI 下使用 Sublime Text 的方式
+sudo mkdir -p /usr/local/bin
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
+```
 
 ### System Preferences
 * Network Link Conditioner - https://developer.apple.com/download/more/?q=Additional%20Tools, http://nshipster.com/network-link-conditioner/
