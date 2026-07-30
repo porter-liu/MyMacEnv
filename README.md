@@ -195,7 +195,6 @@ https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge, file 
 * QLCARFiles - https://blog.timac.org/2018/1112-quicklook-plugin-to-visualize-car-files/, Quick Look for .CAR files
 * SourceCodeSyntaxHighlight - https://github.com/sbarex/SourceCodeSyntaxHighlight, Quick Look plugin for source code with syntax highlighting.
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
-* QuicklookStephen - https://github.com/whomwah/qlstephen, view plain text files without a file extension.
 
 ### Raycast
 https://www.raycast.com/
@@ -282,7 +281,7 @@ https://www.sublimetext.com/
   * cmd+shift+p - Package Control: Install Package, Pretty JSON
   * cmd+ctl+j to reindent JSON file
  
-···bash
+```bash
 # 在 CLI 下使用 Sublime Text 的方式
 sudo mkdir -p /usr/local/bin
 sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
