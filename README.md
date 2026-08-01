@@ -199,6 +199,9 @@ https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge, file 
 ### Raycast
 https://www.raycast.com/
 
+Extensions:
+* Easy New File
+
 ~/.config/raycast/scripts/copy_pwd_to_the_clipboard
 ```bash
 #!/bin/bash
