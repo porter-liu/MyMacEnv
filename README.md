@@ -122,6 +122,11 @@ http://ridiculousfish.com/hexfiend/
 
 ### Homebrew
 http://brew.sh/, The missing package manager for macOS.
+```bash
+# Add to .zshrc
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
 * ack - http://beyondgrep.com/
 * colordiff
 * faad2 - http://www.audiocoding.com/faad2.html, AAC decoder.
@@ -213,6 +218,27 @@ https://github.com/porter-liu/OpenInWezTerm
 
 ### p4merge
 https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge, file comparison.
+
+### pi
+https://pi.dev/
+
+```bash
+# Add to .zshrc
+alias pit='pi --no-session'
+export PI_NOTIFY_SOUND_CMD='afplay /System/Library/Sounds/Glass.aiff'
+```
+
+要使用 MCP 之前需要先 `pi install npm:pi-mcp-adapter`。
+
+在一轮对话结束之后发送通知（使用 pi-notify）：
+```bash
+pi install npm:pi-notify
+```
+如果使用 tmux 的话，还需要在 .tmux.conf 里加入如下内容：
+```conf
+# 允许 OSC 控制序列穿过 tmux，到达 WezTerm
+set -g allow-passthrough on
+```
 
 ### Quick Look
 * SourceCodeSyntaxHighlight - https://github.com/sbarex/SourceCodeSyntaxHighlight, Quick Look plugin for source code with syntax highlighting.
