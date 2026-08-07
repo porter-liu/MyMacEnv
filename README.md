@@ -157,6 +157,30 @@ https://apps.apple.com/us/app/menu-world-time/id1446377255?mt=12, Get times for 
 ### MindNode
 https://mindnode.com/, Mindmapping & Brainstorm Ideas.
 
+### mise
+https://github.com/jdx/mise.
+```bash
+# Add into .zshrc
+eval "$(mise activate zsh)"
+```
+
+mise.toml
+```toml
+[env]
+_.file = ".env"
+
+_.file = [
+  ".env",
+  ".env.local?"
+]
+
+_.file = "{{env.HOME}}/dev-secrets/.env"
+
+_.path = "./bin"
+
+_.source = "./scripts/env.sh"
+```
+
 ### Mole
 https://github.com/tw93/mole, Clean, uninstall, analyze, optimize, and monitor your Mac from the terminal.
 
@@ -191,10 +215,10 @@ https://github.com/porter-liu/OpenInWezTerm
 https://www.perforce.com/products/helix-core-apps/merge-diff-tool-p4merge, file comparison.
 
 ### Quick Look
-* ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
-* QLCARFiles - https://blog.timac.org/2018/1112-quicklook-plugin-to-visualize-car-files/, Quick Look for .CAR files
 * SourceCodeSyntaxHighlight - https://github.com/sbarex/SourceCodeSyntaxHighlight, Quick Look plugin for source code with syntax highlighting.
 * QLMarkdown - https://github.com/toland/qlmarkdown, QuickLook generator for Markdown files.
+* ProvisionQL - https://github.com/ealeksandrov/ProvisionQL, Quick Look for ipa & provision.
+* QLCARFiles - https://blog.timac.org/2018/1112-quicklook-plugin-to-visualize-car-files/, Quick Look for .CAR files
 
 ### Raycast
 https://www.raycast.com/
