@@ -293,11 +293,22 @@ https://starship.rs/, 强大且高性能的终端提示符自定义工具。配�
 ```toml
 add_newline = false
 
-format = "$python$directory$git_branch$git_status$character"
+format = "$python$username$hostname$directory$git_branch$git_status$character"
 
 [python]
 format = '[(\($virtualenv\) )]($style)'
 style = "bold yellow"
+
+[username]
+format = '[$user]($style)'
+style_user = "bold yellow"
+style_root = "bold red"
+show_always = false
+
+[hostname]
+format = '[@$hostname]($style) '
+style = "bold cyan"
+ssh_only = true
 
 [directory]
 style = "blue"
