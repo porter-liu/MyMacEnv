@@ -92,6 +92,12 @@ https://filezilla-project.org/
 #### JetBrainsMonoNL Nerd Font Mono
 https://www.nerdfonts.com/, JetBrains Mono 的关闭连字（NL）、图标等宽（Mono）版本。
 
+#### Maple Mono
+https://font.subf.dev/zh-cn/, 用来跟 JetBrainsMonoNL Nerd Font Mono 配合，在终端显示中文的字体。更纱字体的符号（比如冒号）和部分字形（比如“复”）处理得不好。
+```bash
+brew install --cask font-maple-mono-cn
+```
+
 #### Sarasa Term（更纱字体）
 https://github.com/lumiknit/iosevka-lumi, 用来跟 JetBrainsMonoNL Nerd Font Mono 配合，在终端显示 CJK 字符的终端字体。在 macOS 下选择 SarasaLumi 里面的 TTF-Unhinted（未做屏幕优化）版本。
 
@@ -116,6 +122,12 @@ source <(fzf --zsh)
 - ctrl + t: 搜索文件并插入当前命令
 - alt + c: 搜索目录并进入
 - ctrl + r: 模糊搜索命令历史
+
+### Ghostty
+https://ghostty.org/
+```bash
+brew install --cask ghostty
+```
 
 ### Hex Fiend
 http://ridiculousfish.com/hexfiend/
