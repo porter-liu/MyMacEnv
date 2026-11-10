@@ -1,53 +1,93 @@
-# 1. 字体与 fallback
-# 主字体提供英文字母、编程符号和 Nerd Font 图标
+# ============================================================
+# Ghostty Configuration (macOS)
+# ~/.config/ghostty/config.ghostty
+# ============================================================
+
+
+# ------------------------------------------------------------
+# 1. Fonts & Typography
+# ------------------------------------------------------------
+
+# 英文主字体：包含编程符号及 Nerd Font 图标
 font-family = "JetBrainsMonoNL Nerd Font Mono"
 
-# fallback 用于中文及主字体不包含的字符
+# 中文 fallback 字体：保留其他候选字体，方便切换
 #font-family = "Sarasa Term Lumi X"
 #font-family = "Noto Sans Mono CJK SC"
 font-family = "Maple Mono CN"
 
-# Apple Color Emoji 在 macOS 上会自动使用
-# 粗体也会自动匹配两种字体的 Bold 样式
+# 字体大小（pt）
+# macOS 会自动使用 Apple Color Emoji 显示彩色表情
 font-size = 20
 
-# 近似对应 WezTerm line_height = 1.05
+# 增加字符单元高度 5%，近似 WezTerm 的 line_height = 1.05
 adjust-cell-height = 5%
 
 
-# 2. 颜色
+# ------------------------------------------------------------
+# 2. Theme & Colors
+# ------------------------------------------------------------
+
+# Catppuccin Mocha 主题
 theme = "Catppuccin Mocha"
 
-# 使用原来的 mantle 作为终端背景
+# 覆盖主题背景色，使用 Catppuccin Mocha 的 Mantle
 background = #181825
 
 
-# 3. macOS 标签栏
-# 把 Tab Bar 融合到系统标题栏
+# ------------------------------------------------------------
+# 3. Window & Tab Bar
+# ------------------------------------------------------------
+
+# 使用 macOS 原生标签栏
 macos-titlebar-style = tabs
 
-# 标题字体，字号和字重无法独立精确控制
+# 窗口标题字体
 window-title-font-family = "SF Pro"
 
-
-# 4. 窗口内边距
+# 终端内容与窗口边缘的间距（像素）
 window-padding-x = 8
 window-padding-y = 6
+
+# 不自动平衡左右/上下 padding，保持指定的边距
 window-padding-balance = false
 
 
-# 5. 光标
-# BlinkngBar -> bar + blink
+# ------------------------------------------------------------
+# 4. Cursor
+# ------------------------------------------------------------
+
+# 竖线光标，并启用闪烁
 cursor-style = bar
 cursor-style-blink = true
 
-# 如果 shell integration 覆盖光标样式，
-# 可以尝试取消下一行的注释：
-# shell-integration-features = no-cursor
+
+# ------------------------------------------------------------
+# 5. Mouse & Clipboard
+# ------------------------------------------------------------
+
+# 鼠标滚轮速度倍率
+# discrete：传统滚轮；precision：触控板/高精度滚动
+mouse-scroll-multiplier = discrete:1,precision:1
+
+# 鼠标选中文本后，自动复制到系统剪贴板
+copy-on-select = clipboard
 
 
-# SSH 时自动安装远程机器缺少的 Ghostty terminfo。
-# 安装失败时回退到 xterm-256color。
-# 同时尝试转发 Ghostty 相关的终端环境信息。
-shell-integration-features = ssh-env,ssh-terminfo
+# ------------------------------------------------------------
+# 6. Shell Integration & SSH
+# ------------------------------------------------------------
 
+# ssh-env：向远程 SSH 会话传递相关终端环境信息
+# ssh-terminfo：自动处理远程主机缺失的 Ghostty terminfo
+# no-cursor：禁止 Shell Integration 覆盖上面设置的光标样式
+shell-integration-features = ssh-env,ssh-terminfo,no-cursor
+
+
+# ------------------------------------------------------------
+# 7. Keyboard Shortcuts
+# ------------------------------------------------------------
+
+# 全局快捷键 Ctrl+Option+Space
+# 从任意 macOS 应用呼出或隐藏 Quick Terminal
+keybind = global:ctrl+alt+space=toggle_quick_terminal
