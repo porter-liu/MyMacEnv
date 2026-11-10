@@ -1,23 +1,31 @@
-# add following content at enf of the file
+export PATH="/usr/bin:$PATH"
 
-PROMPT='%{$fg_bold[red]%}➜ %{$fg_bold[green]%}%p%{$fg[cyan]%}%d %{$fg_bold[blue]%}$(git_prompt_info)%{$fg_bold[blue]%}% %{$reset_color%}>'
+# Homebrew
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
-export MARKPATH=$HOME/.marks
-function jp {
-    cd -P "$MARKPATH/$1" 2>/dev/null || echo "No such mark: $1"
-}
-function mark {
-    mkdir -p "$MARKPATH"; ln -s "$(pwd)" "$MARKPATH/$1"
-}
-function unmark {
-    rm -i "$MARKPATH/$1"
-}
-function marks {
-    \ls -l "$MARKPATH" | tail -n +2 | sed 's/  / /g' | cut -d' ' -f9- | awk -F ' -> ' '{printf "%-10s -> %s\n", $1, $2}'
-}
-function _completemarks {
-  reply=($(ls $MARKPATH))
-}
+# starship
+eval "$(starship init zsh)"
 
-compctl -K _completemarks jp
-compctl -K _completemarks unmark
+# eza
+alias ls='eza --icons=auto'
+alias ll='eza --icons=auto --git -lh'
+alias la='eza --icons=auto --git -lah'
+
+# bat
+alias cat="bat --plain --paging=never"
+alias c="bat --paging=never"
+# Enable mouse scrolling when using bat in tmux that enables mouse support
+export BAT_PAGER='less -R -K --mouse'
+
+# pi agent
+alias pit='pi --no-session'
+export PI_NOTIFY_SOUND_CMD='afplay /System/Library/Sounds/Glass.aiff'
+
+# neovim
+alias vi="nvim"
+
+# zoxide
+eval "$(zoxide init zsh)"
+
+# mise
+eval "$(mise activate zsh)"
